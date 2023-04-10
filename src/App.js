@@ -33,19 +33,13 @@ function App() {
   if (!post) return "No post!"
 
 
-  // return (
-  //   <div className="App">
-  //     <Header/>
-  //     <RegistrationForm/>
-  //   <input>{post.LoginUsername}</input> 
-  //   <input>{post.Password}</input> 
-  //   <input>{post.Type}</input> 
-  //   <input>{post.loggedinUserId}</input> 
-  //   <input>{post.languageId}</input> 
-  //   <input>{post.requestId}</input> 
-  //    <button onClick={createPost}>Create Post</button>
-  //   </div>
-  // );
+   return (
+     <div className="App">
+       <Header/>
+       <RegistrationForm/>
+     
+     </div>
+   );
 }
 
 export default App;
